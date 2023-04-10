@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Chatwork Elastic",
+    "version": "0.0.1",
+    "description": "Change room list to 2 columns and add tooltip",
+    "content_scripts": [
+        {
+            "matches": ["https://www.chatwork.com/*"],
+            "css": ["styles/index.css"],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#RoomList li[role="listitem"] {
+    display: inline-block;
+    width: 48%;
+}
